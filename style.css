@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  width: 1150px;
+  margin: 0 auto;
+}
+
+.container {
+  display: grid;
+  row-gap: 50px;
+}
+
+/* -------------- */
+/* ----NAVBAR---- */
+/* -------------- */
+
+section[aria-label="navbar"] {
+  margin-top: 20px;
+}
+
+.navbar-container {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 3fr 1fr;
+}
+
+/* --- NAVBAR LOGO --- */
+
+img[alt="brand-logo"] {
+  width: 150px;
+  height: auto;
+}
+
+/* --- NAVBAR GROW LIST --- */
+
+.list {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 40px;
+  color: #b4b4b4;
+}
+
+.list li:first-child {
+  color: #000;
+}
+
+/* --- NAVBAR BUTTON --- */
+
+.button-group {
+  justify-self: end;
+}
+
+.nav-button {
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin-right: 30px;
+  color: #fff;
+  background-color: #5955b3;
+  border: #5955b3;
+}
+
+/* -------------- */
+/* ----BANNER---- */
+/* -------------- */
+
+.banner-container {
+  display: grid;
+  grid-template-columns: 500px 650px;
+}
+
+/* --- LEFT SECTION --- */
+
+.banner-container > div:first-child {
+  display: grid;
+  align-items: center;
+  row-gap: 30px;
+  position: relative;
+  top: 60px;
+}
+
+.heading-text {
+  color: #3c2f60;
+  font-size: 70px;
+  text-transform: capitalize;
+  line-height: 1;
+}
+
+span {
+  color: #5955b3;
+}
+
+.description {
+  width: 400px;
+  color: #828282;
+}
+
+.btn {
+  padding: 20px 40px;
+  margin-top: 20px;
+  margin-right: 0;
+  justify-self: start;
+}
+
+/* --- RIGHT SECTION --- */
+
+img[alt="illustration"] {
+  position: absolute;
+  width: 700px;
+  height: 500px;
+}
